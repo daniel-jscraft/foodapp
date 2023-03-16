@@ -7,11 +7,13 @@
 				"pizza_marguerita" : {
 					"name": "Pizza Marguerita",
 					"price": 10,
+					"ingredients": ["cheese", "tomato sausage"],
 					"addons_ids": []
 				}, 
 				"pizza_prosciuto" : {
 					"name": "Pizza Prosciuto",
 					"price": 18,
+					"ingredients": ["cooked ham", "tomato stuff"],
 					"addons_ids": ["extra_toppings"]
 				}
 			}
@@ -23,6 +25,7 @@
 				"spaghetti" : {
 					"name": "Spaghetti",
 					"price": 12,
+					"ingredients": ["onion", "carrot", "dried spaghetti"],
 					"addons_ids": ["extra_toppings"]
 				}
 			}
