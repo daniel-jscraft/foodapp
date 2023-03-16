@@ -1,0 +1,53 @@
+{
+	"foods" : {
+		"pizza" : {
+			"addons_ids": ["crust"],
+			"items" : {
+				"pizza_marguerita" : {
+					"name": "Pizza Marguerita",
+					"price": 10,
+					"addons_ids": []
+				}, 
+				"pizza_prosciuto" : {
+					"name": "Pizza Prosciuto",
+					"price": 18,
+					"addons_ids": ["extra_toppings"]
+				}
+			}
+		}, 
+		"pasta" : {
+			"addons_ids": [],
+			"items" : {
+				"spaghetti" : {
+					"name": "Spaghetti",
+					"price": 12,
+					"addons_ids": ["extra_toppings"]
+				}
+			}
+		}
+	}, 
+	"addons" : {
+		"crust": {
+			"name": "Crust",
+			"choices": [
+				{
+					"name": "crispy", 
+					"price": 0
+				},
+				{
+					"name": "fluffy", 
+					"price": 0
+				}
+			]
+		}, 
+		"extra_toppings": {
+			"name": "Extra Toppings",
+			"choices": [
+				{
+					"name": "Extra Mozzarella", 
+					"price": 2
+				}
+			]
+		}
+	}
+}
