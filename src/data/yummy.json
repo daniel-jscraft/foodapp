@@ -1,6 +1,7 @@
 {
 	"foods" : {
 		"pizza" : {
+			"name": "Pizza",
 			"addons_ids": ["crust"],
 			"items" : {
 				"pizza_marguerita" : {
@@ -16,6 +17,7 @@
 			}
 		}, 
 		"pasta" : {
+			"name": "Pasta",
 			"addons_ids": [],
 			"items" : {
 				"spaghetti" : {
